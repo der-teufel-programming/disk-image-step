@@ -1,5 +1,5 @@
 .{
-    .name = "disk-image-step",
+    .name = .disk_image_step,
     .version = "0.1.0",
     .dependencies = .{
         .zfat = .{
@@ -13,4 +13,5 @@
         "README.md",
         "src",
     },
+    .fingerprint = 0xdaabde74ff8cc9b0,
 }
